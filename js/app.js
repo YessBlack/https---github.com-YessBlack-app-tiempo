@@ -29,28 +29,28 @@ window.addEventListener('load', e => {
                     console.log(data)
                     switch (data.weather[0].main) {
                         case 'Clear':
-                            iconoAnimado.src = "../icons/animated/day.svg"
+                            iconoAnimado.src = "icons/animated/day.svg"
                         break;
                         case 'Clouds':
-                            iconoAnimado.src = "../icons/animated/cloudy-day-1.svg"
+                            iconoAnimado.src = "icons/animated/cloudy-day-1.svg"
                         break;
                         case 'Thunderstorm':
-                            iconoAnimado.src = "../icons/animated/thunder.svg"
+                            iconoAnimado.src = "icons/animated/thunder.svg"
                         break;
                         case 'Drizzle':
-                            iconoAnimado.src = "../icons/animated/rainy-2.svg"
+                            iconoAnimado.src = "icons/animated/rainy-2.svg"
                         break;
                         case 'Rain':
-                            iconoAnimado.src = "../icons/animated/rainy-7.svg"
+                            iconoAnimado.src = "icons/animated/rainy-7.svg"
                         break;
                         case 'Snow':
-                            iconoAnimado.src = "../icons/animated/snowy-6.svg"
+                            iconoAnimado.src = "icons/animated/snowy-6.svg"
                         break;
                         case 'Atmosphere':
-                            iconoAnimado.src = "../icons/animated/weather.svg"
+                            iconoAnimado.src = "icons/animated/weather.svg"
                         break;
                         default:
-                            iconoAnimado.src = "../icons/animated/cloudy-day-1.svg"
+                            iconoAnimado.src = "icons/animated/cloudy-day-1.svg"
                             break;
                     }
                 })
